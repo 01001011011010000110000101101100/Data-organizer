@@ -23,24 +23,24 @@ Make sure you have Python 3.8+ installed. The project relies on the following ma
 * Flet - GUI framework built on Flutter.
 * aiofiles - Asynchronous file I/O operation.
 1. Create virtual environment (Prefers) :
-`` Bash
+``Bash
 python -m venv .venv
 ``
 2. Install all packages from `requirements.txt` via pip :
-`` Bash
+``Bash
 pip install -r requirements.txt
 ``
 ### Getting started :
 1. Clone or Download the Repository :
-`` Bash
+``Bash
 git clone "https://github.com/01001011011010000110000101101100/Data-organizer"
 cd "Data-organizer"
 ``
 2. Activate the virtual environment :
-`` Bash
+``Bash
 source .venv/bin/activate
 ``
 3. Lunch the program :
-`` Bash
+``Bash
 python main.py
 ``
