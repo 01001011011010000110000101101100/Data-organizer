@@ -11,7 +11,7 @@
 ---
 ## Structure :
 ```text
-Pt_info 
+Pt-Info 
 ├── constants.py       # Defines medical abbreviation dictionary & dynamic CSV/Log path resolution
 ├── main.py            # Core GUI flow, layout rendering, event handlers, and asynchronous storage tasks
 ├── ui_components.py   # Modular Flet UI components (e.g., patient card creation)
