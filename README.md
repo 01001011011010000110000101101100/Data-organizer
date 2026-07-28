@@ -15,7 +15,9 @@ Pt-Info
 ├── constants.py       # Defines medical abbreviation dictionary & dynamic CSV/Log path resolution
 ├── main.py            # Core GUI flow, layout rendering, event handlers, and asynchronous storage tasks
 ├── ui_components.py   # Modular Flet UI components (e.g., patient card creation)
-└── utils.py           # Helper utilities for CSV initialization, text parsing, and logging maintenance
+├── utils.py           # Helper utilities for CSV initialization, text parsing, and logging maintenance
+├── requirements.txt   # Contains the requirements external library and modules
+└── LICENSE            # Contains the Legal matters (MIT license) 
 ```
 ---
 ## Prerequisites & Dependencies :
