@@ -11,7 +11,7 @@
 ---
 ## Structure :
 ```text
-data_organizer 
+Pt_info 
 ├── constants.py       # Defines medical abbreviation dictionary & dynamic CSV/Log path resolution
 ├── main.py            # Core GUI flow, layout rendering, event handlers, and asynchronous storage tasks
 ├── ui_components.py   # Modular Flet UI components (e.g., patient card creation)
@@ -27,7 +27,7 @@ Make sure you have Python 3.8+ installed. The project relies on the following ma
 ### Getting started :
 1. Clone or Download the Repository :
 ```bash
-git clone "https://github.com/01001011011010000110000101101100/Data-organizer"
+git clone "https://github.com/01001011011010000110000101101100/Pt-Info"
 cd "Data-organizer"
 ```
 2. Create virtual environment (Prefers) :
