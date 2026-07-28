@@ -19,28 +19,30 @@ data_organizer
 
 ---
 ## Prerequisites & Dependencies :
+
 Make sure you have Python 3.8+ installed. The project relies on the following major packages:
-* Flet - GUI framework built on Flutter.
-* aiofiles - Asynchronous file I/O operation.
-1. Create virtual environment (Prefers) :
-```bash
-python -m venv .venv
-```
-2. Install all packages from `requirements.txt` via pip :
-```bash
-pip install -r requirements.txt
-```
+* `Flet` - GUI framework built on Flutter.
+* `aiofiles` - Asynchronous file I/O operation.
+
 ### Getting started :
 1. Clone or Download the Repository :
 ```bash
 git clone "https://github.com/01001011011010000110000101101100/Data-organizer"
 cd "Data-organizer"
 ```
-2. Activate the virtual environment :
+2. Create virtual environment (Prefers) :
+```bash
+python -m venv .venv
+```
+3. Activate the virtual environment :
 ```bash
 source .venv/bin/activate
 ```
-3. Lunch the program :
+4. Install all packages from `requirements.txt` via pip :
+```bash
+pip install -r requirements.txt
+```
+5. Run the program :
 ```bash
 python main.py
 ```
