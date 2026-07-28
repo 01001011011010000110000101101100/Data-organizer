@@ -31,5 +31,5 @@ def create_row_ui(bed_val : str, name_val : str, national_id_val : str, speciali
                         )])
                     ]
                 )
-            ), bgcolor="#201E1E"#, key=bed_val
+            ), bgcolor="#201E1E"
         )
