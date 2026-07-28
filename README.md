@@ -28,7 +28,7 @@ Make sure you have Python 3.8+ installed. The project relies on the following ma
 1. Clone or Download the Repository :
 ```bash
 git clone "https://github.com/01001011011010000110000101101100/Pt-Info"
-cd "Data-organizer"
+cd "Pt-Info"
 ```
 2. Create virtual environment (Prefers) :
 ```bash
