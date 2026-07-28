@@ -107,33 +107,6 @@ async def main(page: ft.Page):
         if name_input.error:
                 name_input.error = None; page.update()
 
-    # async def searching() -> None:  # It did not work, I do not know the resion but I'll keep ti
-    #     try :
-    #         bed_id = search_input.value.strip().upper()
-
-    #         if not bed_id :
-    #             if search_input.error:
-    #                 search_input.error = None; page.update()
-    #             return
-
-            
-    #         if bed_id in cards_list :
-    #             if search_input.error:
-    #                 search_input.error = None; page.update()
-
-    #             await page.scroll_to(scroll_key=bed_id, duration=500, curve=ft.AnimationCurve.EASE_OUT)
-    #             page.update()
-    #             return
-        
-    #         else:
-    #             search_input.error = "This bed does not exist"
-    #             page.update()
-    #         return
-    #     except Exception as er:
-    #         show_snack_bar("An error ", ft.Colors.RED_700)
-    #         logger.error(f'Error : {er}')
-    #         raise
-
 #------------MAIN Functions--------------------------------
 
     async def load_data() -> None: # load data that in CSV file 
@@ -169,7 +142,6 @@ async def main(page: ft.Page):
                     
                     row_ui = ui.create_row_ui(row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], lambda e, i=row[0]: page.run_task(delete_data, i), lambda e, r= row : edit_button(*r))
                     data_list.controls.append(row_ui)
-                    # cards_list.add(row_ui.key)
 
         except Exception as e:
             show_snack_bar('An error occurred while load data. Exite from the app and enter later', ft.Colors.RED_700)
@@ -353,7 +325,6 @@ async def main(page: ft.Page):
         cx_input,
         ft.Row([save_buttom, paint_buttom], spacing=10, expand=True),
         ft.Divider(color="blue", thickness=10),
-        # search_input,
         ft.Text("Saved data :", size=20, weight="bold", color="white"),
         data_list 
     )
